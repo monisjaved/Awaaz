@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gov.awaaz"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="gov.awaaz.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".login"  android:label="Login">
+        </activity>
+        
+        <activity android:name=".recent"  android:label="Recent">
+        </activity>
+         
+        <activity android:name=".recentpoll"  android:label="Recent">
+        </activity>
+         
+        <activity android:name=".recentpost"  android:label="Recent">
+        </activity>
+        
+        <activity android:name=".agriculture"  android:label="Agriculture and Rural Development">
+        </activity>
+         
+        <activity android:name=".agriculturepoll"  android:label="Agriculture and Rural Development">
+        </activity>
+         
+        <activity android:name=".agriculturepost"  android:label="Agriculture and Rural Development">
+        </activity>
+        
+        <activity android:name=".education"  android:label="Education and Skill Development">
+        </activity>
+         
+        <activity android:name=".educationpoll"  android:label="Education and Skill Development">
+        </activity>
+         
+        <activity android:name=".educationpost"  android:label="Education and Skill Development">
+        </activity>
+        
+        <activity android:name=".energy"  android:label="Energy">
+        </activity>
+         
+        <activity android:name=".energypoll"  android:label="Energy">
+        </activity>
+         
+        <activity android:name=".energypost"  android:label="Energy">
+        </activity>
+        
+        <activity android:name=".health"  android:label="Health">
+        </activity>
+         
+        <activity android:name=".healthpoll"  android:label="Health">
+        </activity>
+         
+        <activity android:name=".healthpost"  android:label="Health">
+        </activity>
+        
+         <activity android:name=".macro"  android:label="Macroeconomis Framework">
+        </activity>
+         
+        <activity android:name=".macropoll"  android:label="Macroeconomis Framework">
+        </activity>
+         
+        <activity android:name=".macropost"  android:label="Macroeconomis Framework">
+        </activity>
+        
+         <activity android:name=".urban"  android:label="Urban Development">
+        </activity>
+         
+        <activity android:name=".urbanpoll"  android:label="Urban Development">
+        </activity>
+         
+        <activity android:name=".urbanpost"  android:label="Urban Development">
+        </activity>
+        
+         <activity android:name=".water"  android:label="Water and Environment">
+        </activity>
+         
+        <activity android:name=".waterpoll"  android:label="Water and Environment">
+        </activity>
+         
+        <activity android:name=".waterpost"  android:label="Water and Environment">
+        </activity>
+        
+        
+    </application>
+
+</manifest>
